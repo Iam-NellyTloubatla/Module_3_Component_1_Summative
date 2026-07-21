@@ -15,7 +15,7 @@ const sortMarksLowestToHighestButton = document.getElementById("sortMarksLowestT
 const clearOutputButton = document.getElementById("clearOutputButton");
 const marksList = document.getElementById("marksList");
 const taskNameInput = document.getElementById("taskNameInput");
-
+const resultInput = document.getElementById("resultInput");
 // ===========================================
 // DATA
 // ===========================================
