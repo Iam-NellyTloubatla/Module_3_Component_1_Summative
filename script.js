@@ -13,8 +13,9 @@ const getTotalMarksButton = document.getElementById("getTotalMarksButton");
 const findFirstMarkOver80Button = document.getElementById("findFirstMarkOver80Button");
 const sortMarksLowestToHighestButton = document.getElementById("sortMarksLowestToHighestButton");
 const clearOutputButton = document.getElementById("clearOutputButton");
-const marksList = document.getElementById("marksList");
+const marksList = document.getElementById("marks");
 const taskNameInput = document.getElementById("taskNameInput");
+const browseElement = document.getElementById("browseElement");
 const resultInput = document.getElementById("resultInput");
 // ===========================================
 // DATA
