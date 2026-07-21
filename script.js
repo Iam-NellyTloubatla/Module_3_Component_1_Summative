@@ -33,14 +33,12 @@ export function addMark() {
     marks.push(70);
     // Return the updated marks array
     return marks;
-    displayResult(marks);
 }
 
 // Task 2
 export function getMarksOver60() {
     // Return marks greater than 60
     return marks.filter(mark => mark > 60);
-    console.log(marks);
 }
 
 // Task 3
@@ -53,14 +51,14 @@ export function increaseMarksBy5() {
 export function getTotalMarks() {
     // Return the total of all marks
     return marks.reduce((total,mark)=> total + mark, 0);
-    console.log(marks);
+    // console.log(marks);
 }
 
 // Task 5
 export function findFirstMarkOver80() {
     // Return the first mark greater than 80
     return marks.find(mark => mark > 80);
-    console.log(marks);
+    //console.log(marks);
 }
 
 // Task 6
