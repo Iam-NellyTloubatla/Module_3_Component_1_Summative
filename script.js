@@ -111,4 +111,45 @@ el.addEventListener("DOMContentLoaded", () => {
     if (runTasksButton) {
         runTasksButton.addEventListener("click", runTasks);
     }});
-runTasksButton.addEventListener("click", runTasks);
+    if (addMarkButton) {
+        addMarkButton.addEventListener("click", () => {
+            const result = addMark();
+            displayResult("Task 1", result);
+        });
+    };
+    el.addEventListener("DOMContentLoaded", () => {
+        if (getMarksOver60Button) {
+            getMarksOver60Button.addEventListener("click", () => {
+                const result = getMarksOver60();
+                displayResult("Task 2", result);
+            });
+        }
+    });
+    el.addEventListener("DOMContentLoaded", () => {
+        if (increaseMarksBy5Button) {
+            increaseMarksBy5Button.addEventListener("click", () => {
+                const result = increaseMarksBy5();
+                displayResult("Task 3", result);
+            });
+        }});
+    el.addEventListener("DOMContentLoaded", () => {
+        if (getTotalMarksButton) {
+            getTotalMarksButton.addEventListener("click", () => {
+                const result = getTotalMarks();
+                displayResult("Task 4", result);
+            });
+        }});
+    el.addEventListener("DOMContentLoaded", () => {
+        if (findFirstMarkOver80Button) {
+            findFirstMarkOver80Button.addEventListener("click", () => {
+                const result = findFirstMarkOver80();
+                displayResult("Task 5", result);
+         })
+     }}); 
+    el.addEventListener("DOMContentLoaded", () => {
+        if (sortMarksLowestToHighestButton) {
+            sortMarksLowestToHighestButton.addEventListener("click", () => {   
+                const result = sortMarksLowestToHighest();
+                displayResult("Task 6", result);
+            });
+        }}) 
