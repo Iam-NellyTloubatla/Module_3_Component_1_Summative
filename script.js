@@ -68,6 +68,8 @@ export function sortMarksLowestToHighest() {
     return marks.sort((a, b) => a - b);
 }
 
+textcontent.addMark
+
 // ===========================================
 // PROVIDED FUNCTIONS
 // DO NOT EDIT
