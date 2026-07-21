@@ -24,7 +24,7 @@ export function addMark() {
     marks.push(70);
     // Return the updated marks array
     return marks;
-    console.log(marks);
+    displayResult("Task 1", marks);
 }
 
 // Task 2
