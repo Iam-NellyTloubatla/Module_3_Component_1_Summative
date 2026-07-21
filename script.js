@@ -69,7 +69,6 @@ export function sortMarksLowestToHighest() {
     return marks.sort((a, b) => a - b);
 }
 
-textcontent.addMark
 
 // ===========================================
 // PROVIDED FUNCTIONS
@@ -108,5 +107,8 @@ export function runTasks() {
 // ADD EVENT LISTENER
 // SECTION A 
 // ===========================================
-
+el.addEventListener("DOMContentLoaded", () => {
+    if (runTasksButton) {
+        runTasksButton.addEventListener("click", runTasks);
+    }});
 runTasksButton.addEventListener("click", runTasks);
