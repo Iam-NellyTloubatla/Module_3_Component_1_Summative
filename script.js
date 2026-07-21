@@ -14,6 +14,7 @@ const findFirstMarkOver80Button = document.getElementById("findFirstMarkOver80Bu
 const sortMarksLowestToHighestButton = document.getElementById("sortMarksLowestToHighestButton");
 const clearOutputButton = document.getElementById("clearOutputButton");
 const marksList = document.getElementById("marksList");
+const taskNameInput = document.getElementById("taskNameInput");
 
 // ===========================================
 // DATA
