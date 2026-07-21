@@ -7,6 +7,13 @@ const runTasksButton = document.getElementById("runTasksButton");
 const outputElement = document.getElementById("output");
 const outputElement = document.getElementById("outputElement");
 const addMarkButton = document.getElementById("addMarkButton");
+const getMarksOver60Button = document.getElementById("getMarksOver60Button");
+const increaseMarksBy5Button = document.getElementById("increaseMarksBy5Button");
+const getTotalMarksButton = document.getElementById("getTotalMarksButton");
+const findFirstMarkOver80Button = document.getElementById("findFirstMarkOver80Button");
+const sortMarksLowestToHighestButton = document.getElementById("sortMarksLowestToHighestButton");
+const clearOutputButton = document.getElementById("clearOutputButton");
+const marksList = document.getElementById("marksList");
 
 // ===========================================
 // DATA
