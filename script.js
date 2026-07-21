@@ -5,6 +5,8 @@
 
 const runTasksButton = document.getElementById("runTasksButton");
 const outputElement = document.getElementById("output");
+const outputElement = document.getElementById("outputElement");
+const addMarkButton = document.getElementById("addMarkButton");
 
 // ===========================================
 // DATA
@@ -24,7 +26,7 @@ export function addMark() {
     marks.push(70);
     // Return the updated marks array
     return marks;
-    displayResult("Task 1", marks);
+    displayResult(marks);
 }
 
 // Task 2
