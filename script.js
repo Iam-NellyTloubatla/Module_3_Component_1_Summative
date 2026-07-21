@@ -20,7 +20,7 @@ const taskNameInput = document.getElementById("taskNameInput");
 // DATA
 // ===========================================
 
-const marks = [45, 60, 85, 30, 95];
+export const marks = [45, 60, 85, 30, 95];
 
 // ===========================================
 //SECTION B TASKS
