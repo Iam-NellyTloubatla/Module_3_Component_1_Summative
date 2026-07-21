@@ -4,13 +4,13 @@
 // ===========================================
 
 const runTasksButton = document.getElementById("runTasksButton");
-const outputElement = "";
+const outputElement = document.getElementById("output");
 
 // ===========================================
 // DATA
 // ===========================================
 
-export const marks = [45, 60, 85, 30, 95];
+const marks = [45, 60, 85, 30, 95];
 
 // ===========================================
 //SECTION B TASKS
@@ -21,32 +21,41 @@ export const marks = [45, 60, 85, 30, 95];
 // Task 1 
 export function addMark() {
     //add 70 to the end of the marks array
+    marks.push(70);
     // Return the updated marks array
+    return marks;
+    console.log(marks);
 }
 
 // Task 2
 export function getMarksOver60() {
     // Return marks greater than 60
+    return marks.filter(mark => mark > 60);
+    console.log(marks);
 }
 
 // Task 3
 export function increaseMarksBy5() {
     // Return a new array where each mark is increased by 5
+    return marks.map(mark => mark + 5);
 }
 
 // Task 4
 export function getTotalMarks() {
     // Return the total of all marks
+    return marks.reduce((total,mark)=> total + mark, 0);
 }
 
 // Task 5
 export function findFirstMarkOver80() {
     // Return the first mark greater than 80
+    return marks.find(mark => mark > 80);
 }
 
 // Task 6
 export function sortMarksLowestToHighest() {
     // Return marks sorted from lowest to highest
+    return marks.sort((a, b) => a - b);
 }
 
 // ===========================================
@@ -87,4 +96,4 @@ export function runTasks() {
 // SECTION A 
 // ===========================================
 
-runTasksButton
+runTasksButton.addEventListener("click", runTasks);
